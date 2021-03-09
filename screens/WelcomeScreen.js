@@ -193,7 +193,7 @@ export default class WelcomeScreen extends React.Component {
                         this.showModal()
                     }
                 </View>
-                <Image source={require("../assets/barter.png")} style={{ height: 200, width: 200, marginBottom: 40, marginLeft: 80, marginTop: 60 }} />
+                <Image source={require("../assets/barter.png")} style={{ height: 200, width: 200, marginBottom: 40, marginLeft: 80, marginTop: 10 }} />
 
                 <TextInput keyboardType='email-address' style={styles.loginBox} placeholder="Username" onChangeText={(text) => {
                     this.setState({

@@ -3,6 +3,8 @@ import {Text,View,TextInput,TouchableOpacity,StyleSheet} from 'react-native';
 import db from '../config'
 import firebase from 'firebase';
 import Header from '../components/Header';
+
+
 export default class SettingsScreen extends React.Component{
     constructor(){
         super()
