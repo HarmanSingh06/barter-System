@@ -8,7 +8,7 @@ export default class ExchangeScreen extends React.Component {
     constructor() {
         super();
         this.state = {
-            userId:firebase.auth().currentUser.email,
+            userId:"abc@gmail.com",
             itemName: '',
             itemDescription: ''
         }

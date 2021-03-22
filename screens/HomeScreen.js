@@ -12,10 +12,10 @@ import db from '../config';
 import Header from '../components/Header';
 
 export default class HomeScreen extends React.Component {
-  constructor() {
+   constructor() {
     super();
     this.state = {
-      userId: firebase.auth().currentUser.email,
+      userId: "abc@gmail.com",
       requestedItems: [],
     };
     this.request_ref = null;
@@ -54,9 +54,9 @@ export default class HomeScreen extends React.Component {
         bottomDivider
       />
     );
-  };
-
+  }
   render() {
+  
     return (
       <View style={{ flex: 1 }}>
         <View style={{ flex: 1 }}>

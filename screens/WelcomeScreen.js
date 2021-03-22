@@ -61,7 +61,15 @@ export default class WelcomeScreen extends React.Component {
                 })
         }
     }
+/*  
 
+                  
+            
+
+     
+
+                            
+                             */
     showModal = () => {
         return (
             <Modal
